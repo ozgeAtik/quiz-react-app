@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #e5ebf8;
+  font-family: "Rubik", sans-serif;
+  overflow: hidden;
+}
+
+.start-button {
+  border-radius: 8px;
+  background-color: #4d5b9e;
+  font-family: "Rubik", sans-serif;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  width: 100px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 70px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 8px;
+  font-family: "Rubik", sans-serif;
+  border-style: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 15px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  font-weight: 700;
+}
+
+.main-container {
+  max-width: 700px;
+}
+
+.main-container-s {
+  max-width: 700px;
+  height: 600px;
+}
+
+.q-title {
+  font-size: 18px;
+}
+
+.answer-container {
+  display: flex;
+  font-size: 14px;
+  max-height: 60px;
+}
+
+#single-answer-changed {
+  border: 1px solid #b0b0b0;
+  color: #b0b0b0;
+}
+
+.single-answer {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+  text-align: center;
+  margin: 0 5px 5px 5px;
+  cursor: pointer;
+  border: 1px solid;
+  padding: 4px 10px 4px 10px;
+  border-radius: 10px;
+}
+
+hr {
+  background-color: rgb(190, 190, 190);
+  height: 1px;
+  border: none;
+}
+
+.check-button {
+  background-color: #4d5b9e;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.first-page {
+  text-align: center;
+}
+
+.first-page h1 {
+  font-size: 48px;
+}
+
+.first-page p {
+  font-size: 36px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5b9e;
+  color: white;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow: scroll;
+  }
+  .main-container {
+    width: 400px;
+    padding: 10px;
+  }
+
+  .q-title {
+    font-size: 12px;
+  }
+
+  .answer-container {
+    display: flex;
+    font-size: 10px;
+    max-height: 50px;
+  }
+
+  .check-button {
+    background-color: #4d5b9e;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 10px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+}
