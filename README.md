@@ -1,1 +1,1 @@
-https://react-quiz-zen.netlify.app 
+react-quizzicall.netlify.app
